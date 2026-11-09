@@ -59,15 +59,18 @@ Komut `photo-data.js` dosyasını yeniden üretir. Siyah arka planlı, yüksek k
 Python kurmak istemiyorsanız fotoğrafı bir base64 `data:image/jpeg;base64,...` metnine çeviren herhangi bir araçla `PHOTO_DATA` değişkenini kendiniz de güncelleyebilirsiniz.
 
 ## Proje yapısı
+
+```
 .
 ├── index.html           Sayfa iskeleti
 ├── style.css            Siyah arka plan ve ipucu yazısı
 ├── main.js              Parçacık sistemi ve WebGL2 çizimi
 ├── photo-data.js        Fotoğraf (base64 olarak gömülü)
-├── photo.jpg            Orijinal fotoğraf (kod kullanmaz, yedek)
+├── image.png            Orijinal fotoğraf (kod kullanmaz, yedek)
 ├── make-photo-data.py   photo-data.js üretici (isteğe bağlı)
+├── LICENSE
 └── README.md
-
+```
 
 ## Tarayıcı desteği
 
