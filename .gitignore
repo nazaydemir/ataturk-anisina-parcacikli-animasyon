@@ -1,0 +1,6 @@
+.vs/
+*.wsuo
+*.sqlite
+DocumentLayout.json
+VSWorkspaceState.json
+package-lock.json
